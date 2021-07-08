@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:library_app/core/controllerViewModel.dart';
+import 'package:library_app/view/controller/appController.dart';
 import 'package:library_app/view/widgets/introScreenonBoarding.dart';
 import 'package:library_app/view/widgets/introduction.dart';
 
