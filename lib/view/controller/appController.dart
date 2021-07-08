@@ -3,7 +3,7 @@ import 'package:flutter_snake_navigationbar/flutter_snake_navigationbar.dart';
 import 'package:library_app/helper/constants.dart';
 import 'package:library_app/view/screens/downloadsScreen.dart';
 import 'package:library_app/view/screens/homeScreen.dart';
-import 'package:library_app/view/screens/libraryScreen.dart';
+import 'package:library_app/view/screens/profileScreen.dart';
 
 class AppController extends StatefulWidget {
   @override
@@ -29,7 +29,7 @@ class _AppControllerState extends State<AppController> {
         _currentScreen = DownloadsScreen();
         break;
       case 2:
-        _currentScreen = LibraryScreen();
+        _currentScreen = ProfileScreen();
         break;
     }
     setState(() {});

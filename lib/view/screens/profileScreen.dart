@@ -7,7 +7,7 @@ import 'package:library_app/view/widgets/primaryText.dart';
 
 import 'bookDetailsScreen.dart';
 
-class LibraryScreen extends StatelessWidget {
+class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
